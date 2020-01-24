@@ -45,14 +45,14 @@ function playRound(playerSelection, computerSelection) {
 
 function game() {
     for(let i = 0; i < 5; i++) {
-        const playerSelection = prompt("Rock, Paper or Scissors?")
-        console.log("Round " + (i+1) + " : " + playRound(playerSelection, computerPlay()))
+        const playerSelection = prompt("Rock, Paper or Scissors?");
+        console.log("Round " + (i+1) + " : " + playRound(playerSelection, computerPlay()));
     }
 }
 
-game()
+game();
 
-// const playerSelection = 'scissors'
-// const computerSelection = computerPlay()
-// console.log(computerSelection)
-// console.log(playRound(playerSelection, computerSelection))
+// const playerSelection = 'scissors';
+// const computerSelection = computerPlay();
+// console.log(computerSelection);
+// console.log(playRound(playerSelection, computerSelection));
